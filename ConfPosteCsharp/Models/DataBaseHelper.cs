@@ -16,9 +16,9 @@ namespace ConfPosteCsharp.Models
                 MySqlConnectionStringBuilder connectionBuilder = new MySqlConnectionStringBuilder
                 {
                     Server = "localhost",
-                    Port = 3307,
-                    UserID = "francois",
-                    Password = "root",
+                    Port = 3306,
+                    UserID = "francois", //francois
+                    Password = "root", //root
                     Database = "confposte"
                 };
                 string hello = null;
