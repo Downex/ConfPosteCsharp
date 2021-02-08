@@ -17,8 +17,8 @@ namespace ConfPosteCsharp.Models
                 {
                     Server = "localhost",
                     Port = 3307,
-                    UserID = "root",
-                    Password = "",
+                    UserID = "francois",
+                    Password = "root",
                     Database = "confposte"
                 };
                 string hello = null;
