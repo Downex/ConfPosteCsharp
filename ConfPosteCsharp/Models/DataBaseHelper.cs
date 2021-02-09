@@ -16,9 +16,9 @@ namespace ConfPosteCsharp.Models
                 MySqlConnectionStringBuilder connectionBuilder = new MySqlConnectionStringBuilder
                 {
                     Server = "localhost",
-                    Port = 3306,
-                    UserID = "francois", //francois
-                    Password = "root", //root
+                    Port = 3307,
+                    UserID = "root", //francois
+                    Password = "", //root
                     Database = "confposte"
                 };
                 string hello = null;
@@ -43,7 +43,7 @@ namespace ConfPosteCsharp.Models
             {
                 Debug.WriteLine(e);
                 throw e;
-            }
+            }   
         }
 
     }
